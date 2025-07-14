@@ -8,43 +8,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="Description">
-        This is not a real online service! You know you need something like this in 
-        your life to help you realize your deepest dreams. Sign up now to get started.
-        <br><br>
-        You know you want to.
+    <div class="leftSide">
+        <div class="leftContent">
+            <img src="./images/odin-lined.png" alt="odin_Logo" class="logo"> 
+            <div id="leftText">
+                ODIN
+            </div>
+        </div>
     </div>
-    <!-- Form -->
-    <div class="formContainer">
-        <form action="#" method="get">
-            <div>
-                <label for="first_name">First Name:</label>
-                <input type="text" name="first_name" id="first_name">
 
-                <label for="last_name">Last Name:</label>
-                <input type="text" name="last_name" id="last_name">
-            </div>
-            <div>
-                <label for="user_email">Email:</label>
-                <input type="email" id="user_email" name="user_email" required>
 
-                <label for="phone_number">Phone Number:</label>
-                <input type="tel" id="phone_number" name="phone_number" required>
-            </div>
-            <div>
-                <label for="user_password">Password:</label>
-                <input type="password" id="user_password" name="user_password" required>
+    <div id="loginContainer">
+        <div id="Description">
+            This is not a real online service! You know you need something like this in 
+            your life to help you realize your deepest dreams. Sign up now to get started.
+            <br><br>
+            You know you want to.
+        </div>
+        <!-- Form -->
+        <div class="formContainer">
+            <form action="#" method="get">
+                <div>
+                    <label for="first_name">First Name:</label>
+                    <input type="text" name="first_name" id="first_name">
 
-                <label for="confirm_password">Confirm Password:</label>
-                <input type="password" id="confirm_password" name="confirm_password" required>
-            </div>
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" name="last_name" id="last_name">
+                </div>
+                <div>
+                    <label for="user_email">Email:</label>
+                    <input type="email" id="user_email" name="user_email" required>
 
-            <button type="submit">Create Account</button>
-        </form>
-    </div>
-    <div id="prevUser">
-        Already have an account?
-        <button id="logIn">Log in</button>
+                    <label for="phone_number">Phone Number:</label>
+                    <input type="tel" id="phone_number" name="phone_number" required>
+                </div>
+                <div>
+                    <label for="user_password">Password:</label>
+                    <input type="password" id="user_password" name="user_password" required>
+
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="confirm_password" required>
+                </div>
+
+                <button type="submit">Create Account</button>
+            </form>
+        </div>
+        <div id="prevUser">
+            Already have an account?
+            <button id="logIn">Log in</button>
+        </div>
     </div>
 </body>
 </html>
