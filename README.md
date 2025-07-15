@@ -8,12 +8,14 @@ to use it. This sign up page can be used as a skeleton for future webpages, but 
 Tech Stack Used:
 - HTML
 - CSS
-- JavaScript
 
 What I've learned:
 In this, I've moved past fundementals and started utlizing more intermediate features such as em and rem for sizing purposes. This
 is mostly used to be able for me to ensure my knowledge on using
-the "form" function on HTML.
+the "form" function on HTML. The form function has much more to
+learn about including its pseudo classes and case handling.
 
 What to improve on:
-WIP
+- Accurate password verification
+- cleaing up files for easier readability
+- focus on learning more about units for em and such.

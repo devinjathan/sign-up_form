@@ -38,3 +38,83 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+#loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+#Description {
+    font-weight: 1000;
+    font-size: 1.2em;
+    padding-left: 1em;
+}
+
+.formContainer{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 2em
+}
+
+.formContainer input{
+    padding: 0.8em 3em;
+    font-size: 1em;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+}
+
+.formContainer h1{
+    font-size: 1.2em;
+}
+
+.formCol{
+    display: flex;
+    flex-direction: column;
+}
+
+.formRow {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#createAcc {
+    background-color: #596D48;
+    border-radius: 8px;
+    color: white;
+    width: 10vw;
+    padding: 0.5em 1em;
+    font-size: 1em;
+}
+
+.createAccContainer, #prevUser {
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+#prevUser {
+    font-size: 1em;
+}
+
+#logIn {
+    all: unset;
+    font-weight: bold;
+    color: #596D48;
+    cursor: pointer;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid lightblue;
+    box-shadow: 0 0 4px rgba(38, 132, 255, 0.5); 
+}
